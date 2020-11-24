@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+body {
+    background-color: #0D0C17;
+    color: white;
+}
+
 .banner {
     height: 100vh;
     background-size: cover;
@@ -128,3 +133,36 @@ header {
     /* border-radius: 50%; */
 }
 /* BANNER TEXT */
+
+
+/* EVENTS */
+.events-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 1000px;
+    margin: auto;
+}
+
+.event {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.event:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.event-img {
+    width: 47%;
+}
+
+.event-desc {
+    width: 47%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 1.3em;
+}
+/* EVENTS */
